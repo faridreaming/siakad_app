@@ -50,7 +50,7 @@ class PdfService {
                 pw.Text(
                   'Sistem Informasi Akademik Mahasiswa',
                   style: const pw.TextStyle(
-                    color: PdfColors.white70,
+                    color: PdfColors.white,
                     fontSize: 12,
                   ),
                 ),
@@ -201,7 +201,7 @@ class PdfService {
                   ),
                   pw.Text(
                     'Semester $semester',
-                    style: const pw.TextStyle(color: PdfColors.white70),
+                    style: const pw.TextStyle(color: PdfColors.white),
                   ),
                 ],
               ),
